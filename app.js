@@ -9,21 +9,20 @@ app.get('/', (req, res) => {
   res.json([
     {
       "id":"1",
-      "title juhf":"Book Review: as  The Bear & The Nightingale"
+      "title juhf":"First Text"
     },
     {
       "id":"2as",
-      "title":"Game Review: Pokemon Brillian Diamond"
+      "title":"Second Text"
     },
     {
       "id":"3",
-      "title":"Show Review: Alice in Borderland"
+      "title":"Third Text"
     }
   ])
 })
 
 app.listen(4000, () => {
-  console.log('listening for requests on port 4000 ...')
+  console.log('listening  on port 4000 ...')
 })
 
-//docker build -t mysecond_app .
